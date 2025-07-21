@@ -169,7 +169,7 @@ resource "aws_instance" "vulnerable" {
     git_org              = "prismacloud"
     git_repo             = "automation/systemtest"
     yor_name             = "vulnerable"
-    yor_trace            = "a4965466-b098-4f12-b9de-d383ff5c29b3"
+    yor_trace            = "ece74bf3-05b5-45cd-b26d-b6857bec0f87"
   }
   metadata_options {
     http_endpoint = "enabled"
@@ -406,7 +406,7 @@ resource "aws_security_group" "internal_sg" {
     git_org              = "prismacloud"
     git_repo             = "automation/systemtest"
     yor_name             = "internal_sg"
-    yor_trace            = "ece74bf3-05b5-45cd-b26d-b6857bec0f87"
+    yor_trace            = "ece74bf3-05b5-45cd-b26d-b6857bec0f12"
   }
 }
 
