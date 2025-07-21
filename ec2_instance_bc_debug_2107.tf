@@ -161,14 +161,7 @@ resource "aws_instance" "vulnerable" {
   key_name                    = "pc-national-bank-ssh-${var.global_random_var}"
   tags = {
     Name                 = "Sales and Trading ${var.global_random_var}"
-    git_commit           = "c48e6f6ebc7e10279e84a148d48dd9be141b7a82"
-    git_file             = "systestlib/terraform/lib/terraform_scripts/aws/sa-demo-pcs/sa-demo-pcs.tf"
-    git_last_modified_at = "2024-08-08 11:24:58"
-    git_last_modified_by = "anmagarwal@paloaltonetworks.com"
-    git_modifiers        = "anmagarwal"
-    git_org              = "prismacloud"
-    git_repo             = "automation/systemtest"
-    yor_name             = "vulnerable"
+    yor_name             = "vulnerable_123"
     yor_trace            = "ece74bf3-05b5-45cd-b26d-b6857bec0f87"
   }
   metadata_options {
