@@ -169,7 +169,7 @@ resource "aws_instance" "vulnerable" {
     git_org              = "prismacloud"
     git_repo             = "automation/systemtest"
     yor_name             = "vulnerable"
-    yor_trace            = "624fbaee-07f0-45b1-8f3a-a27594e94659"
+    yor_trace            = "624fbaee-07f0-45b1-8f3a-a27594e94760"
   }
   metadata_options {
     http_endpoint = "enabled"
