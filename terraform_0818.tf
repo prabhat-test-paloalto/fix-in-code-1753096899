@@ -14,5 +14,6 @@ resource "aws_instance" "example" {
   tags = {
     Name      = "siddhant-ec2-fix-in-code-check-2"
     yor_trace = "d8ee6fc5-80d3-4f52-8e7e-9ed25684f8ab"
+    yor_name = "sidd-check"
   }
 }
