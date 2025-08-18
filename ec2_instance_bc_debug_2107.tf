@@ -166,7 +166,7 @@ resource "aws_instance" "vulnerable" {
   }
   metadata_options {
     http_endpoint = "enabled"
-    http_tokens   = "optional"
+    http_tokens   = "required"
   }
   depends_on = [aws_vpc.demo-foundations-vpc]
   root_block_device {
