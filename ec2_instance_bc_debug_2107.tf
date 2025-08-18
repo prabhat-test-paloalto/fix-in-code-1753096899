@@ -161,8 +161,8 @@ resource "aws_instance" "vulnerable" {
   key_name                    = "pc-national-bank-ssh-${var.global_random_var}"
   tags = {
     Name                 = "Sales and Trading ${var.global_random_var}"
-    yor_name             = "vulnerable_123"
-    yor_trace            = "ece74bf3-05b5-45cd-b26d-b6857bec0f87"
+    yor_name             = "vulnerable_1234"
+    yor_trace            = "4539b8e5-79fa-4b2f-9d34-479be3acd234"
   }
   metadata_options {
     http_endpoint = "enabled"
