@@ -8,7 +8,7 @@ resource "aws_instance" "example" {
 
   # Disable IMDSv2 requirement
   metadata_options {
-    http_tokens = "optional"   # allows IMDSv1 (IMDSv2 not required)
+    http_tokens = "required")
   }
 
   tags = {
